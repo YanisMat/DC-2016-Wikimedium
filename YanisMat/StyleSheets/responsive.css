@@ -16,7 +16,8 @@
 
 @media screen and (max-width: 1020px) {
   article > img,
-    .galleryRail img {
+  article > iframe,
+  .galleryRail img {
     width: 100%;
   }
 }
@@ -26,13 +27,10 @@
     width: 768px;
     min-width: 768px;
   }
-
 }
 
 
 
-
-<meta name="viewport" content="width=device-width">
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   article > * {
@@ -48,12 +46,17 @@
   article > *:not(section) {
     width: calc(100% - 40px);
   }
+
+  .galleryRail figure {
+    width: 100%;
+    min-width: 100%;
+  }
+
+  article > iframe {
+    height: 190px;
+  }
 }
 
-.galleryRail figure {
-  width: 100%;
-  min-width: 100%;
-}
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
   .sidebar {
