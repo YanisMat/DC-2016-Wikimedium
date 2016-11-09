@@ -1,15 +1,19 @@
+.postsFeed {
+  padding: 88px 0 38px;
+}
+
 .postsFeed a {
   display: block;
-  width: 700px;
-  margin: 0 auto;
+  width: 740px;
+  margin: 10px auto;
   padding: 20px;
-  background-color: rgba(255,0,0,.5);
+  background-color: white;
+  border-radius: 5px;
 }
 .postsFeed figure {
   margin-bottom: 31px;
-  width: 660px;
+  width: 700px;
   height: 200px;
-  background-image: url(../images/narkimfin.jpg);
   background-size: cover;
   background-position: center;
 }

@@ -109,8 +109,8 @@ article > iframe {
 }
 
 article img + h2,
-article iframe + h2 {
-  margin-top: 82px;
+article iframe {
+  margin-top: -1px;
 }
 
 
@@ -135,5 +135,5 @@ article h3 + iframe {
 }
 
 article > iframe {
-  height: 574px;
+  height: 575px;
 }
