@@ -7,6 +7,10 @@
 @import 'menubar.css';
 @import 'share.css';
 
+
+/*landing*/
+@import 'landing.css';
+
 /*index*/
 @import 'posts.css';
 
