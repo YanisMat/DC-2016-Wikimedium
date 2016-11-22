@@ -1,4 +1,8 @@
-article a{
+article {
+  padding-bottom: 40px;
+}
+
+article a {
   text-decoration: underline;
 }
 
@@ -27,7 +31,7 @@ article > *:not(section) {
 
 
 article h1 {
-   margin-top: 66px;
+   margin-top: 16px;
    font-size: 40px;
    line-height: 46px;
 }
@@ -47,7 +51,7 @@ article h2 {
 }
 
 article h2 + p {
-  margin-top: 7px;
+  margin-top: 6px;
 }
 
 article h3 {
@@ -100,6 +104,9 @@ article li {
   margin: 17px 0 17px 30px;
 }
 
+article a {
+  color: inherit;
+}
 
 article > img,
 article > iframe {
